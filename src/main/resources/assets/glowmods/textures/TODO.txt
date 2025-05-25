@@ -1,0 +1,6 @@
+Things Needed:
+    - Ruby icon
+    - Sapphire icon
+    - Topaz icon
+    - Rest of emerald tools
+    - Other gem tools

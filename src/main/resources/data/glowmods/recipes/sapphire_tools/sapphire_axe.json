@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GG",
+    " SG",
+    " S "
+  ],
+  "key": {
+    "G": {
+      "item": "glowmods:sapphire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "glowmods:sapphire_axe",
+    "count": 1
+  }
+}

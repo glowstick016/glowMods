@@ -3,6 +3,7 @@ package com.example.glowmods.item;
 
 //Custom Imports
 import com.example.glowmods.item.tool.ModToolItems;
+import com.example.glowmods.item.material.ModMaterialItems;
 
 //Minecraft Imports
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,6 +15,7 @@ public class ModItems {
     public static void register(IEventBus eventBus) {
         // Register tools
         ModToolItems.register(eventBus);
+        ModMaterialItems.register(eventBus);
 
     }
 }

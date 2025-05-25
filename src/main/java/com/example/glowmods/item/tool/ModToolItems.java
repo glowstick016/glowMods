@@ -14,6 +14,10 @@ public class ModToolItems {
 
     // Register the Emerald Pickaxe
     public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", EmeraldPickaxe::new);
+    public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe", EmeraldAxe::new);
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_shovel", EmeraldShovel:: new);
+    public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_how", EmeraldHoe::new);
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", EmeraldSword::new);
 
     // Register all items
     public static void register(IEventBus eventBus) {

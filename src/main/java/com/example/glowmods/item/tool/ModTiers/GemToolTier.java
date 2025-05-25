@@ -1,12 +1,12 @@
 //Package Import
-package com.example.glowmods.item.tool.emerald;
+package com.example.glowmods.item.tool.ModTiers;
 
 //Importing Minecraft classes
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
 //Make the class that uses the tier
-public class EmeraldToolTier implements Tier {
+public class GemToolTier implements Tier {
     @Override
     public int getUses() {
         return 2000;  // Example: More durability than diamond
@@ -29,7 +29,7 @@ public class EmeraldToolTier implements Tier {
 
     @Override
     public Ingredient getRepairIngredient() {
-        // Example: Repair with emeralds
-        return Ingredient.ofItems(net.minecraft.world.item.Items.EMERALD);
+        // Example: Repair with Sapphires
+        return Ingredient.ofItems(net.minecraft.world.item.Items.Sapphire);
     }
 }
